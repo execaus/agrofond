@@ -1,0 +1,50 @@
+.save_form{
+    display: flex;
+}
+
+.save_form .card-footer{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0,0,0,0);
+    padding-top: 20px;
+}
+
+.dada{
+    display: flex;
+}
+
+.content_font{
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.update_delete_content{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.update_delete_content .card-footer{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.form_hidden_input{
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    transition: .5s !important;
+    font-weight: 700 !important;
+}
+
+.form_hidden_input_active{
+    bottom: 18%;
+}
+
+.input_address{
+    height: 70px !important;
+}

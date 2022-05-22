@@ -1,0 +1,1 @@
+$('#support').addClass('active');
